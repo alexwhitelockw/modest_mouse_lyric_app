@@ -1,2 +1,2 @@
-# modest_mouse_lyric_app
+# Modest Mouse Lyric App
 RShiny app to explore Modest Mouse tracks and lyrics.
