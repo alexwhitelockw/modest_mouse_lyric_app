@@ -1,0 +1,175 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Courier New', monospace;
+    font-size: 14pt;
+}
+
+#title {
+  display: grid;
+  justify-items: right;
+  font-size: 20pt;
+  margin-top: 100px;
+  margin-right: 50px;
+  color: #404040;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+select {
+    background-color: #F2F2F2;
+    font-family: 'Courier New', monospace;
+    font-size: 14pt;
+}
+
+/*
+  Album grid styles
+*/
+
+#album-grid {
+    display: grid;
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(4, 100px);
+    height: 400px;
+    width: 800px;
+}
+
+.tile {
+    /*display: inline-block;*/
+    border-radius: 10px 10px 10px 10px;
+    height: 100px;
+    width: 100px;
+}
+
+
+/*
+  Home Page NavBar
+*/
+
+.index-nav {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 800px;
+    font-family: 'Courier New', monospace;
+    font-size: 14pt;
+    color: #404040;
+}
+
+a:hover {
+    color: #737373;
+}
+
+
+/*
+  NavBar for all other pages
+*/
+
+.nav-bar {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    width: 800px;
+    font-family: 'Courier New', monospace;
+    font-size: 14pt;
+    color: #404040;
+}
+
+
+/* 
+  Styles for the lyrics tf-idf plot 
+*/
+
+#lyrics_plot {
+    display: grid;
+    margin: auto;
+    width: 1200px;
+    justify-items: center;
+    grid-template-columns: 1000px 200px;
+    grid-template-rows: 600px;
+    padding-top: 75px;
+}
+
+#tfidf_plot {
+  width: 900px;
+}
+
+#tfidf_plot > img {
+    border-radius: 3px 3px 3px 3px;
+    width: 900px;
+    height: 600px;
+}
+
+/* 
+  Track Recommendation Section
+*/
+
+#song_recommender_overview {
+    display: grid;
+    margin: auto;
+    width: 550px;
+    justify-items: center;
+    grid-template-columns: 550px;
+}
+
+
+#song_recommender {
+    display: grid;
+    margin: auto;
+    width: 550px;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+}
+
+#track_recommendation_plot {
+    display: grid;
+    margin: auto;
+    width: 1000px;
+    justify-items: center;
+    grid-template-columns: 1000px;
+    grid-template-rows: 500px;
+    padding-top: 20px;
+}
+
+#track_recommendations {
+  width: 1000px;
+  height:500px;
+}
+
+#track_recommendations > img {
+    border-radius: 3px 3px 3px 3px;
+    width: 900px;
+    height: 400px;
+}
+
+/* 
+  Styles for the analysis background
+*/
+
+#analysis_background {
+  display: grid;
+  margin: auto;
+  justify-items: center;
+  padding-top: 75px;
+}
